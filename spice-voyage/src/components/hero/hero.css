@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
+
+.main-section{
+    height: 100vh;
+    overflow: hidden;
+}
+.hero-section{
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.Hero-img{
+    position: absolute;
+    top: -120px;
+    right: -150px;
+    z-index: -1;
+    width: 62rem;
+    height: 62rem;
+    transform: rotate(135deg);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Hero-title{
+    margin-left: 5%;
+    margin-top: 8%;
+    width: 22rem;
+    height: 14rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 7rem;
+    /* color: #155753; */
+    color: var(--main-heading);
+}
+
+.Hero-description{
+    width:40rem;
+    height: 6.5rem;
+    margin-left: 5%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.6rem;
+    
+    /* color: #3EB7A1; */
+    color: var(--para-clr);
+}
+
+
+.btn{
+    width: 12.5rem;
+    height: 3.7rem;
+    margin-left: 5%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    background: var(--bg-clr);
+    /* color: #155753; */
+    color: var(--btn-bg-color);
+    border-radius: 5px;
+    /* border: 3px solid #155753; */
+    border: 3px solid var(--btn-bg-color);
+    margin-top: 1.5rem;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    transform: translateY(-10px);
+    background: var(--btn-bg-color);
+    color: #E9FFFC;
+}
+
+
+@media (max-width: 360px){
+    .Hero-img{
+        /* width: 62rem; */
+        /* height: 62rem; */
+        width: 40rem;
+        height: 40rem;
+    }
+    .Hero-title{
+        font-weight: 700;
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+    /* .Hero-description{
+        width:40rem;
+        height: 6.5rem;
+        margin-left: 5%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 3.6rem;
+        color: #3EB7A1;
+    } */
+
+    .Hero-description{
+        width:25rem;
+    }
+}

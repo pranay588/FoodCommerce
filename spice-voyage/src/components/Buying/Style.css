@@ -1,0 +1,115 @@
+.img-container{
+    width: 50vw;
+    height: 50vh;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    /* background: rgb(161, 80, 231); */
+    /* border: 2px solid rgb(217, 6, 97); */
+}
+
+.img-container > img{
+    width: 60%;
+    height: 100%;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    border-radius: 0.5rem;
+}
+
+.img-container-2{
+    height: 99%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid rgb(217, 6, 97); */
+}
+.img-container-2 > img{
+    margin: 0.6rem;
+    width: 60%;
+    height: 47%;
+    border-radius: 0.5rem;
+}
+
+.placing-order{
+    width:60%;
+    height: 12rem;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12rem;
+}
+
+.placing-order-pt1 > input{
+    margin: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.input-div{
+    height: 2rem;
+    width: 2rem;
+    background-color: red;
+}
+
+.total-value{
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-bottom:1px solid #155753;
+}
+
+.adding{
+    height: 2rem;
+    width: 2rem;
+}
+
+.substracting{
+    height: 2rem;
+    width: 2rem;
+}
+
+.add-to-cart{
+    height: 2.8rem;
+    width: 6rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    border:2px solid black;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.add-to-cart:hover{
+    background-color: #155753;
+    color: #E9FFFC;
+}
+
+.related-header{
+    width:60%;
+    height: 6rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12rem;
+}
+
+.related-header > h2{
+    border-bottom: 1px solid #155753;
+    padding: 1rem;
+}
+
+.related{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 28rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.related > .cards{
+    margin: 3rem;
+}

@@ -1,0 +1,51 @@
+.Nav-bar{
+    background-color: var(--bg-clr);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    /* flex-wrap: wrap; */
+    border-bottom: 1px solid var(--hd-bor);
+    row-gap: 2rem;
+    padding: 0.7rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.1);
+    border-radius: 0px 0px 30px 30px;
+}
+
+.Nav-bar-components > ul{
+    display: flex;
+    list-style: none;
+}
+
+.Nav-bar-components > ul > li{
+    text-decoration: none;
+    /* color: #1F8A84; */
+    color: var(--btn-bg-color);
+    font-weight: bold;
+    font-family: "Rosario",sans-serif;
+    transition: 0.8s;
+    padding:  0.7rem 1.2rem;
+    border-radius: 5px;
+}
+
+.Nav-bar > ul > li:hover{
+    color: #fff;
+    /* background: #1F8A84; */
+    background: var(--btn-bg-color);
+}
+
+a{
+    text-decoration: none;
+    /* color: #1F8A84; */
+    color: var(--btn-bg-color);
+}
+
+.dark-mode{
+    padding: 0.6rem;
+    color: white;
+    background-color: rgb(1, 26, 23);
+    border: none;
+    font-weight: bold;
+    font-family: "Rosario",sans-serif;
+    cursor: pointer;
+}
+
