@@ -41,33 +41,33 @@ const Trends = ()=>{
           >
             <SwiperSlide><div class="card-1 cards">
                 <img src={img1}/>
-                <p class="name">card 1</p>
+                <p class="name">Dish 1</p>
                 <div class="buying">
-                    <p>$6.99</p><button>Add</button>
+                    <p>$6.99</p><button className="btn-theme-1">Add</button>
                 </div>
             </div>
             </SwiperSlide>
             <SwiperSlide><div class="card-1 cards">
                 <img src={img2}/>
-                <p class="name">card 2</p>
+                <p class="name">Dish 2</p>
                 <div class="buying">
-                    <p>$6.99</p><button>Add</button>
+                    <p>$6.99</p><button className="btn-theme-1">Add</button>
                 </div>
             </div>
             </SwiperSlide>
             <SwiperSlide><div class="card-1 cards">
                 <img src={img3}/>
-                <p class="name">card 3</p>
+                <p class="name">Dish 3</p>
                 <div class="buying">
-                    <p>$6.99</p><button>Add</button>
+                    <p>$6.99</p><button className="btn-theme-1">Add</button>
                 </div>
             </div>
             </SwiperSlide>
             <SwiperSlide><div class="card-1 cards">
                 <img src={img4}/>
-                <p class="name">card 4</p>
+                <p class="name">Dish 4</p>
                 <div class="buying">
-                    <p>$6.99</p><button>Add</button>
+                    <p>$6.99</p><button className="btn-theme-1">Add</button>
                 </div>
             </div>
             </SwiperSlide>

@@ -16,7 +16,7 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
-    border-bottom: 1px solid tomato;
+    border-bottom: 1px solid var(--btn-bg-color);
 }
 
 .cart-img-div{

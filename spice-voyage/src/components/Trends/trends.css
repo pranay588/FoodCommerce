@@ -49,9 +49,10 @@ body{
     justify-content: space-evenly;
 }
 
-.buying > button{
+.btn-theme-1{
     height: 2.8rem;
     width: 6rem;
+    margin: 0 1.3rem;
     font-weight: bold;
     border:1px solid var(--btn-bg-color);
     cursor: pointer;

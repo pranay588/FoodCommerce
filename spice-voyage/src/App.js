@@ -6,13 +6,17 @@ import "./App.css";
 import Cart from "./components/cart/Cart";
 import { BrowserRouter,Routes,Router, Route } from "react-router-dom";
 import TotalBuyingState from "./context/TotalBuyingState";
+
 import { SignUp } from "./scenes/SignUp/signup";
 import { Login } from "./scenes/login/login";
 
+
 function App() {
+
   return (
     <div className="App">
       <TotalBuyingState>
+      
         <BrowserRouter>
           <Header/>
           <Routes>
@@ -24,7 +28,7 @@ function App() {
           </Routes>
         </BrowserRouter>
       </TotalBuyingState>
-      {/* <Login/> */}
+
         
     </div>
     

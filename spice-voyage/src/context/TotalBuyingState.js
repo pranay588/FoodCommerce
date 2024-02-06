@@ -11,6 +11,8 @@ const getDefaultcart = ()=>{
     return cart;
 };
 
+
+
 const TotalBuyingState = (props)=>{
     const [cartItems,setCartItems] = useState(getDefaultcart());
     
@@ -22,12 +24,17 @@ const TotalBuyingState = (props)=>{
         setCartItems((prev)=>({...prev, [itemId]: prev[itemId] - 1}));
     };
 
-    const contextValue = {cartItems,addToCart,removeFromCart};
+    const reset = ()=>{
+        setCartItems(getDefaultcart());
+    }
+
+    const contextValue = {cartItems,addToCart,removeFromCart,reset};
     return(
         <TotalBuyingContext.Provider value={contextValue}>
             {props.children}
         </TotalBuyingContext.Provider>
     );
 }
+
 
 export default TotalBuyingState;

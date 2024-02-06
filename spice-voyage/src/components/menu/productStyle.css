@@ -72,3 +72,29 @@
     }
 
 }
+/* 
+@media(max-width:600px){
+    .toggle-btn {
+        display: flex;
+    }
+    .Nav-bar-components{
+        width: 100%;
+    }
+    .Nav-bar{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Nav-bar-components ul{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .Nav-bar-components li{
+        text-align: center;
+    }
+    .Nav-bar-components.active{
+        display: flex;
+    }
+} */
+

@@ -20,6 +20,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+    filter: brightness(0.8);
 }
 
 .Hero-title{

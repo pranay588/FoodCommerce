@@ -4,6 +4,7 @@ import { PRODUCTS } from "../../products";
 export const CartItem = (props)=>{
     const { id,productName,price,productsImage } = props.data;
     const { cartItems } = useContext(TotalBuyingContext);
+
     return(
         <div className="cartItem">
             <div className="cart-item-content"><div className="cart-img-div">
@@ -14,7 +15,9 @@ export const CartItem = (props)=>{
                     <div className="item-description">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                             tempor incididunt ut labore et dolore magna aliqua. </p><br/>
-                        <h5>Price: </h5>{price*cartItems[id]}
+                        <h4>Price: </h4>{price*cartItems[id]}
+                        <br/>
+                        <h4>Quantity: </h4>{cartItems[id]}
                     </div>
             </div>
             </div>

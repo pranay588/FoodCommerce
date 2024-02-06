@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
     justify-content:space-around;
-    /* flex-wrap: wrap; */
     border-bottom: 1px solid var(--hd-bor);
     row-gap: 2rem;
     padding: 0.7rem;
@@ -17,8 +16,8 @@
 }
 
 .Nav-bar-components > ul > li{
+    margin: 0 0.5rem;
     text-decoration: none;
-    /* color: #1F8A84; */
     color: var(--btn-bg-color);
     font-weight: bold;
     font-family: "Rosario",sans-serif;
@@ -29,13 +28,14 @@
 
 .Nav-bar > ul > li:hover{
     color: #fff;
-    /* background: #1F8A84; */
     background: var(--btn-bg-color);
+    border-bottom:1px solid var(--btn-bg-color);
 }
 
 a{
+    padding: 0.5rem 0;
     text-decoration: none;
-    /* color: #1F8A84; */
+
     color: var(--btn-bg-color);
 }
 
@@ -49,3 +49,57 @@ a{
     cursor: pointer;
 }
 
+.toggle-nav-button{
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+}
+
+.toggle-nav-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: gray;
+    border-radius: 10px;
+}
+.nav-ul > li > a.active{
+
+    border-bottom:1px solid var(--btn-bg-color);
+}
+.nav-ul > li > a:hover{
+
+    border-bottom:1px solid var(--btn-bg-color);
+}
+
+
+a.active{
+    border-bottom:1px solid tomato;
+}
+
+@media(max-width:600px){
+    .toggle-nav-button{
+        display: flex;
+    }
+
+    .Nav-bar-components{
+        display: none;
+        width: 100%;
+    }
+    .Nav-bar{
+        flex-direction: column;
+    }
+    .Nav-bar-components ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .Nav-bar li{
+        text-align: center;
+    }
+    .Nav-bar-components.active{
+        display: flex;
+    }
+}

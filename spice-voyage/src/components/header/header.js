@@ -1,5 +1,5 @@
 import "./header.css";
-import { Link } from "react-router-dom";
+import { Link,NavLink } from "react-router-dom";
 import { useState,useEffect } from "react";
 
 const Header = () =>{
@@ -10,23 +10,31 @@ const Header = () =>{
         else    
             setTheme("dark-theme");
     }
-
     useEffect(()=>{
         document.body.className = theme;
     },[theme]);
+
+    const [navi,setNavi] = useState(true);
+
+    const changeNav = ()=>{
+        setNavi(!navi);
+    }
+
     return(
         <div>
             <div className="Nav-bar">
-                <div className="Nav-bar-components">
-                    <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/cart">cart</Link></li>
-                        <li><Link to="/menu">Menu</Link></li>
-                        <li><Link to="/signUp">SignUp?</Link></li>
-                        <li><Link to="/login">login</Link></li>
-                          
-                        {/* <li><Link to="/buying">buying</Link></li>
-                        <li><Link to="/cart">cart</Link></li> */}
+                <NavLink className="toggle-nav-button" onClick={changeNav}>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                </NavLink>
+                <div className= {navi ? "Nav-bar-components" : "Nav-bar-components active"}>
+                    <ul className="nav-ul">
+                        <li><NavLink to="/">Home</NavLink></li>
+                        <li><NavLink to="/cart">Cart</NavLink></li>
+                        <li><NavLink to="/menu">Menu</NavLink></li>
+                        <li><NavLink to="/signUp">Signup</NavLink></li>
+                        <li><NavLink to="/login">Login</NavLink></li>
                     </ul>
                 </div>
                 <div>

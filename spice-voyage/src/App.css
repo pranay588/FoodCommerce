@@ -44,6 +44,7 @@
   --bg-clr:#E9FFFC;
   --box-bg:whitesmoke;
   --hd-bor:#E9FFFC;
+  --sml-text-crl:black;
 }
 .dark-theme{
   --main-heading:#21c5d1;
@@ -53,11 +54,13 @@
   --bg-clr:#0e302f;
   --box-bg:#4d8583;
   --hd-bor:#21c5d1;
+  --sml-text-crl:white;
 }
 
 
 body{
   background-color: var(--bg-clr);
+  color: var(--sml-text-crl);
 }
 
 
