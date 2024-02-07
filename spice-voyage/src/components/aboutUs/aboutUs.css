@@ -16,7 +16,6 @@
 .footer-heading-1{
     font-size: 3rem;
     font-weight: 0.3rem;
-    /* color: #155753; */
     color: var(--main-heading);
     border-bottom: 3px solid;
 }
@@ -24,12 +23,10 @@
 .footer-heading-2{
     font-size: 0.3rem;
     font-weight: 4px;
-    /* color: #3EB7A1; */
     color: var(--para-clr);
 }
 
 .image{
-    /* position: absolute; */
     width: 25rem;
     height: 25rem;
     margin: 40px;
@@ -45,7 +42,6 @@
 .description-title{
     font-size: 3rem;
     font-weight: 0.3rem;
-    /* color: #155753; */
     color: var(--main-heading);
 }
 
@@ -57,7 +53,6 @@
     height: 3.1rem;
     border: 2px solid var(--btn-bg-color);
     background: var(--bg-color);
-    /* color: #155753; */
     color: var(--btn-bg-color);
     font-weight: bold;
     font-family: 'Josefin Sans', sans-serif;
@@ -66,7 +61,6 @@
 }
 
 .footer-btn:hover{
-    /* background:#155753; */
     background: var(--btn-bg-color);
     color: #E9FFFC;
 }

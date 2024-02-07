@@ -42,7 +42,6 @@
 .item-description{
     width: 100%;
     margin-top: 3rem;
-    /* border: 1px solid springgreen; */
 }
 .cart-item-name{
     height: 0.4rem;
@@ -57,7 +56,6 @@
     width: 40%;
     margin-left: auto;
     margin-right: auto;
-    /* border-bottom: 1px solid chocolate; */
 }
 
 .cart_btns{
@@ -67,7 +65,6 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    /* border: 1px solid chocolate; */
 }
 
 .cart_btn_1{
@@ -105,6 +102,5 @@
     .cart_btn_1{
         width: 7rem;
         height: 3rem;
-        /* margin: 4rem; */
     }
 }

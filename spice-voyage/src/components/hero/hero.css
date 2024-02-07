@@ -32,7 +32,6 @@
     font-weight: 700;
     font-size: 6rem;
     line-height: 7rem;
-    /* color: #155753; */
     color: var(--main-heading);
 }
 
@@ -44,8 +43,6 @@
     font-weight: 700;
     font-size: 3rem;
     line-height: 3.6rem;
-    
-    /* color: #3EB7A1; */
     color: var(--para-clr);
 }
 
@@ -58,10 +55,8 @@
     font-weight: 700;
     font-size: 1rem;
     background: var(--bg-clr);
-    /* color: #155753; */
     color: var(--btn-bg-color);
     border-radius: 5px;
-    /* border: 3px solid #155753; */
     border: 3px solid var(--btn-bg-color);
     margin-top: 1.5rem;
     cursor: pointer;
@@ -78,8 +73,6 @@
 
 @media (max-width: 360px){
     .Hero-img{
-        /* width: 62rem; */
-        /* height: 62rem; */
         width: 40rem;
         height: 40rem;
     }
@@ -89,16 +82,7 @@
         line-height: 5rem;
     }
 
-    /* .Hero-description{
-        width:40rem;
-        height: 6.5rem;
-        margin-left: 5%;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 700;
-        font-size: 3rem;
-        line-height: 3.6rem;
-        color: #3EB7A1;
-    } */
+
 
     .Hero-description{
         width:25rem;

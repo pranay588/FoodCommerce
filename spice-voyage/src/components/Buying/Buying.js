@@ -35,7 +35,6 @@ const Buying = ()=>{
                 </div>
                 <button className="add-to-cart">Add to Cart</button>
             </div>
-            {/* Releated */}
             <div className = "related-header">
                 <h2>Related</h2>
             </div>
