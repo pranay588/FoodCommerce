@@ -21,8 +21,9 @@
 }
 
 .footer-heading-2{
-    font-size: 0.3rem;
-    font-weight: 4px;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 0.3rem;
     color: var(--para-clr);
 }
 
@@ -63,4 +64,10 @@
 .footer-btn:hover{
     background: var(--btn-bg-color);
     color: #E9FFFC;
+}
+
+@media(max-width:600px){
+    .footer-container{
+        flex-direction: column;
+    }
 }

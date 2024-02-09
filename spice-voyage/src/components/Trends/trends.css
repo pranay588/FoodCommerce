@@ -64,3 +64,9 @@ body{
     background-color: var(--btn-bg-color);
     color: whitesmoke;
 }
+
+@media(max-width:600px) {
+    .container{
+        display: none;
+    }
+}
